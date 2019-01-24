@@ -138,5 +138,5 @@ ME Models track elements illustrated in black.
 <li><a href="http://l-gauge.org/">L-Gauge.org</a></li>
 <li><a href="http://bluebrick.lswproject.com">BlueBrick layout editor</a></li>
 
-</br>
-<small>LEGO® is a trademark of the LEGO® Group of companies which does not sponsor, authorize or endorse this site.</small>
+---
+<p><small>LEGO® is a trademark of the LEGO® Group of companies which does not sponsor, authorize or endorse this site.</small></p>
