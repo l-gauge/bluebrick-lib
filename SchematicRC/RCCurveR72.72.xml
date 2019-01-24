@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Michael Gale (brick dimensions)</Author>
+	<Description>
+		<en>R72 curve, plastic rail</en>
+	</Description>
+  <SortingKey>RC-5</SortingKey>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.0</left>
+		<right>0.0</right>
+		<top>0.0</top>
+		<bottom>0.5</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<connexion>
+			<type>1</type>
+			<position>
+				<x>2.58810</x>
+				<y>14.33160</y>
+			</position>
+			<angle>90</angle>
+			<angleToPrev>202.5</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>157.5</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>1</electricPlug>
+		</connexion>
+		<connexion>
+			<type>1</type>
+			<position>
+				<x>-2.89258</x>	<!-- x = pos1x + 40 * sin(11.25) because 40 is the radius in stud of the middle line of a 9V turn (for a quarter of circle) -->
+				<y>-13.22161</y>	<!-- y = pos1y + 40 * (1 - cos(11.25)) because 40 is the radius in stud of the middle line of a 9V turn (for a quarter of circle) -->
+			</position>
+			<angle>-112.5</angle>
+			<angleToPrev>157.5</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>202.5</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
+		</connexion>
+	</ConnexionList>
+</part>
