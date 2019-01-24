@@ -6,10 +6,10 @@ This repository contains add-on part libraries for the BlueBrick layout design t
 
 ## Library Format
 
-BlueBrick part libraries consist of file folder containing part definition files.  Each part in a library is defined by two files:
+BlueBrick part libraries consist of a file folder containing part definition files.  Each part in a library is defined by two files:
 
 1. **GIF Image** - a pixel image of the part with a scale of 1 pixel per millimetre (mm).  The part should be nominally centred within the image file.
-2. **XML Specification** - an XML file specifies meta data for the part including its description, author, etc. It also specifies connection points to other adjacent elements of the same type (e.g. for track, roads, etc.).  Connection points are specified relative to the centre of the part GIF image file, i.e. the origin is the centre. Connection coordinates are specified with X,Y pairs with the Y axis "flipped", i.e. -Y is up and +Y is down.
+2. **XML Specification** - an XML file specifies meta data for the part including its description, author, etc. It also specifies connection points to other adjacent elements of the same type (e.g. for track, roads, etc.).  Connection points are specified relative to the centre of the part GIF image file, i.e. the origin is the centre. Connection coordinates are specified with X,Y pairs with the Y axis "flipped", i.e. -Y is up and +Y is down, in units of *studs* (not mm).
 
 The filenaming convention for a part is:
 
@@ -20,7 +20,7 @@ The filenaming convention for a part is:
 
 where `partname` is the name you assign to the part and `color` is the LDraw color code decimal value (optional) for the part.
 
-An example of a part is shown for standard 16-stud straight track element in dark bluish gray:
+An example of a part is shown for standard 16-stud straight track element in dark bluish gray (LDraw color code `72`):
 
 #### Image File: RCStdStraight.72.gif
 
