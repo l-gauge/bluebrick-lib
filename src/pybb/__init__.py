@@ -10,7 +10,7 @@ VERSION = __project__ + '-' + __version__
 script_dir = os.path.dirname(__file__)
 
 
-BB_SCALE = 8
+
 
 from .bbhelpers import *
 from .bbpart import BBConnexion, BBPart

@@ -8,7 +8,7 @@ from math import pi
 from pybb import *
 
 SCR_PATH = os.path.dirname(os.path.realpath(__file__))
-OUT_PATH = os.path.normpath(SCR_PATH + os.path.sep + "../Schematic")
+OUT_PATH = os.path.normpath(SCR_PATH + os.path.sep + "../LGauge")
 COLOR_PATH = os.path.normpath(OUT_PATH + os.path.sep + "color")
 MONO_PATH = os.path.normpath(OUT_PATH + os.path.sep + "mono")
 sys.path.append(SCR_PATH)
@@ -63,10 +63,12 @@ for straight in straights:
     t.label = straight['label']
     t.style.fill_color = BBStyle.RGBFromHex(straight['color'])
     t.part.descriptions['en'] = "%s straight track" % straight['label']
+    t.colour = 72
     fn = COLOR_PATH + os.path.sep + straight['label'] + ".72"
     write_files(t, fn)
 
     t.style.SetMono()
+    t.colour = 15
     fn = MONO_PATH + os.path.sep + straight['label'] + ".15"
     write_files(t, fn)
 
@@ -78,9 +80,11 @@ for curve in curves:
     t.style.fill_color = BBStyle.RGBFromHex(curve['color'])
     t.part.descriptions['en'] = "%s curve track, %.2f deg sector" % (curve['label'], curve['sector'])
     fn = COLOR_PATH + os.path.sep + curve['label'] + ".72"
+    t.colour = 72
     write_files(t, fn)
 
     t.style.SetMono()
+    t.colour = 15
     fn = MONO_PATH + os.path.sep + curve['label'] + ".15"
     write_files(t, fn)
 
@@ -90,8 +94,10 @@ for switch in switches:
     t.style.fill_color = BBStyle.RGBFromHex(switch['color'])
     t.part.descriptions['en'] = "Switch track %d studs long, %.2f deg diverging" % (switch['length'], switch['vee'])
     fn = COLOR_PATH + os.path.sep + switch['label'] + ".72"
+    t.colour = 72
     write_files(t, fn)
 
     t.style.SetMono()
+    t.colour = 15
     fn = MONO_PATH + os.path.sep + switch['label'] + ".15"
     write_files(t, fn)
