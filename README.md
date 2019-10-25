@@ -79,6 +79,14 @@ For more details on defining custom parts, consult the <a href="http://bluebrick
 
 ## Libraries
 
+### L-Gauge Schematic
+
+<img src="./images/SchRef.png" width="800"/>
+
+This library represents generic L-Gauge compatible track in schematic form.  It is not vendor specific and is representative of elements available from LEGO®, BrickTracks, Fx Bricks, etc.
+
+The library comes in both color and monochrome versions to give more stylistic choices for making track plan documents.
+
 ### Schematic (RC/Plastic Track)
 
 <img src="./images/RCLibThumb.png" width="160"/>

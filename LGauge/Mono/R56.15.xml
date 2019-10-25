@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<part>
+   <Author>L-Gauge.org</Author>
+   <Description>
+      <en>R56 curve track, 22.50 deg sector</en>
+   </Description>
+   <SnapMargin>
+      <left>0.0</left>
+      <right>0.0</right>
+      <top>0.0</top>
+      <bottom>0.0</bottom>
+   </SnapMargin>
+   <ConnexionList>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>2.131373089683972</x>
+            <y>11.480502970952694</y>
+         </position>
+         <angle>90.0</angle>
+         <angleToPrev>202.5</angleToPrev>
+         <angleToNext>157.5</angleToNext>
+         <nextConnexionPreference>1</nextConnexionPreference>
+         <electricPlug>1</electricPlug>
+      </connexion>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>-2.131373089683972</x>
+            <y>-10.0071717563471</y>
+         </position>
+         <angle>-112.5</angle>
+         <angleToPrev>157.5</angleToPrev>
+         <angleToNext>202.5</angleToNext>
+         <nextConnexionPreference>0</nextConnexionPreference>
+         <electricPlug>-1</electricPlug>
+      </connexion>
+   </ConnexionList>
+</part>

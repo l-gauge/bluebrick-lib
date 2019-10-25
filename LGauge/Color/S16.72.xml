@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<part>
+   <Author>L-Gauge.org</Author>
+   <Description>
+      <en>S16 straight track</en>
+   </Description>
+   <SnapMargin>
+      <left>0.0</left>
+      <right>0.0</right>
+      <top>0.0</top>
+      <bottom>0.0</bottom>
+   </SnapMargin>
+   <ConnexionList>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>-8.0</x>
+            <y>0</y>
+         </position>
+         <angle>180</angle>
+         <angleToPrev>180.0</angleToPrev>
+         <angleToNext>180.0</angleToNext>
+         <nextConnexionPreference>1</nextConnexionPreference>
+         <electricPlug>1</electricPlug>
+      </connexion>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>8.0</x>
+            <y>0</y>
+         </position>
+         <angle>0</angle>
+         <angleToPrev>180.0</angleToPrev>
+         <angleToNext>180.0</angleToNext>
+         <nextConnexionPreference>0</nextConnexionPreference>
+         <electricPlug>-1</electricPlug>
+      </connexion>
+   </ConnexionList>
+</part>

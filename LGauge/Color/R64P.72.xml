@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<part>
+   <Author>L-Gauge.org</Author>
+   <Description>
+      <en>R64P curve track, 22.62 deg sector</en>
+   </Description>
+   <SnapMargin>
+      <left>0.0</left>
+      <right>0.0</right>
+      <top>0.0</top>
+      <bottom>0.0</bottom>
+   </SnapMargin>
+   <ConnexionList>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>2.461567472098743</x>
+            <y>13.076997053606227</y>
+         </position>
+         <angle>90.0</angle>
+         <angleToPrev>202.62</angleToPrev>
+         <angleToNext>157.38</angleToNext>
+         <nextConnexionPreference>1</nextConnexionPreference>
+         <electricPlug>1</electricPlug>
+      </connexion>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>-2.461567472098743</x>
+            <y>-11.538526812005493</y>
+         </position>
+         <angle>-112.62</angle>
+         <angleToPrev>157.38</angleToPrev>
+         <angleToNext>202.62</angleToNext>
+         <nextConnexionPreference>0</nextConnexionPreference>
+         <electricPlug>-1</electricPlug>
+      </connexion>
+   </ConnexionList>
+</part>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<part>
+   <Author>L-Gauge.org</Author>
+   <Description>
+      <en>Switch track 40 studs long, 22.62 deg diverging</en>
+   </Description>
+   <SnapMargin>
+      <left>0.0</left>
+      <right>0.0</right>
+      <top>0.0</top>
+      <bottom>0.0</bottom>
+   </SnapMargin>
+   <ConnexionList>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>-20.769235120800367</x>
+            <y>-3.846152032993828</y>
+         </position>
+         <angle>180</angle>
+         <angleToPrev>180.0</angleToPrev>
+         <angleToNext>0.0</angleToNext>
+         <nextConnexionPreference>1</nextConnexionPreference>
+         <electricPlug>1</electricPlug>
+      </connexion>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>19.230764879199633</x>
+            <y>-3.846152032993828</y>
+         </position>
+         <angle>0</angle>
+         <angleToPrev>0.0</angleToPrev>
+         <angleToNext>180.0</angleToNext>
+         <nextConnexionPreference>0</nextConnexionPreference>
+         <electricPlug>-1</electricPlug>
+      </connexion>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>19.230764879199633</x>
+            <y>4.153847967006172</y>
+         </position>
+         <angle>22.62</angle>
+         <angleToPrev>-22.62</angleToPrev>
+         <angleToNext>157.38</angleToNext>
+         <nextConnexionPreference>0</nextConnexionPreference>
+         <electricPlug>-1</electricPlug>
+      </connexion>
+   </ConnexionList>
+</part>

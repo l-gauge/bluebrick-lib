@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<part>
+   <Author>L-Gauge.org</Author>
+   <Description>
+      <en>R72.5 curve track, 11.25 deg sector</en>
+   </Description>
+   <SnapMargin>
+      <left>0.0</left>
+      <right>0.0</right>
+      <top>0.0</top>
+      <bottom>0.0</bottom>
+   </SnapMargin>
+   <ConnexionList>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>0.6917299054837045</x>
+            <y>7.4134322366128735</y>
+         </position>
+         <angle>90.0</angle>
+         <angleToPrev>191.25</angleToPrev>
+         <angleToNext>168.75</angleToNext>
+         <nextConnexionPreference>1</nextConnexionPreference>
+         <electricPlug>1</electricPlug>
+      </connexion>
+      <connexion>
+         <type>1</type>
+         <position>
+            <x>-0.6917299054837045</x>
+            <y>-6.6623344968507805</y>
+         </position>
+         <angle>-101.25</angle>
+         <angleToPrev>168.75</angleToPrev>
+         <angleToNext>191.25</angleToNext>
+         <nextConnexionPreference>0</nextConnexionPreference>
+         <electricPlug>-1</electricPlug>
+      </connexion>
+   </ConnexionList>
+</part>

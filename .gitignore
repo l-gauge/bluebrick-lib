@@ -1,20 +1,37 @@
 # Compiled Python files
-*.pyc
+*.py[cod]
+*.step
+# C extensions
+*.so
 
-# Folder view configuration files
+# OS litter
 .DS_Store
 Desktop.ini
-
-# Thumbnail cache files
 ._*
 Thumbs.db
-
-# Files that might appear on external disks
-.Spotlight-V100
 .Trashes
+.Spotlight-V100
 
-# Atom sync
-/.atom/blob-store/
-/.atom/compile-cache/
-/.atom/packages/
-/.atom/storage/
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
