@@ -28,7 +28,7 @@ An example of a part is shown for standard 16-stud straight track element in dar
 
 #### XML File: RCStdStraight.72.xml
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Michael Gale (brick dimensions)</Author>
